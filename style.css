@@ -1,0 +1,76 @@
+*,html,body
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0;
+}
+
+header
+{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 110px;
+    line-height: 110px;
+}
+
+ul
+{
+    list-style: none;
+    margin-left: 0px;
+}
+ul li
+{
+    display:inline-block;
+}
+
+header nav
+{
+   float: right;
+}
+
+.logo
+{
+    margin-top: 10px;
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 1s ease-in
+}
+.logo:hover
+{
+    color: blue;
+}
+
+header nav li a
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    margin-left: 0px;
+    font-weight: bold;
+    color: white;
+    transition: all 1s ease-in;
+}
+
+header nav li a:hover
+{
+    text-decoration: none;
+    color: blue;
+}
+
+.logo img
+{
+    margin-top: 0px;
+    margin-left: 90px;
+}
+body {
+ background-image: url("http://www.lazytweet.com/wp-content/uploads/ic/thumb-icons-security-and-home-alarm-system-lock-vector.jpg");
+ background-repeat: repeat; /* Do not repeat the image */
+ background-size: fit; /* Resize the background image to cover the entire container */
+ background-position: center; /* Center the image */
+}
+
